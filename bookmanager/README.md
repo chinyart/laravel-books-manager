@@ -2,28 +2,28 @@ Simple laravel task to add author and add books
 
 serve with: <b>php artisan serve</b>
 
-<b>api to add author</b>
+## api to add author
 http://127.0.0.1:8000/api/addauthor
-## body
+<b>body</b>
 {
 	"firstname": "name",
 	"lastname": "name",
 	"email": "email@host.com"
 }
 
-<b>api to add book</b>
+## api to add book
 http://127.0.0.1:8000/api/addbook
-## body
+<b>body</b>
 {
 	"author_id": 1,
     "title": "second book",
     "pages": 10
 }
 
-<b>api to add display a book</b>
+## api to add display a book
 http://127.0.0.1:8000/api/getbook/{id} example http://127.0.0.1:8000/api/getbook/1
 
-<b>api to add delete a book</b>
+## api to add delete a book
 http://127.0.0.1:8000/api/deletebook/{id} example http://127.0.0.1:8000/api/deletebook/1
 
 Thank you :)
