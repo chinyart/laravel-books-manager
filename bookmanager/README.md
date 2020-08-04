@@ -1,5 +1,7 @@
 Simple laravel task to add author and add books
 
+serve with: <b>php artisan serve</b>
+
 <b>api to add author</b>
 http://127.0.0.1:8000/api/addauthor
 ## body
